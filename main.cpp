@@ -4,6 +4,18 @@ using namespace std;
 
 int main()
 {
+    //* Dairenin alanını bulan program
+    /*
+    float r, area;
+    cout << "enter r: ";// Kullanıcıdan dairenin yarıçapını girmesini istiyoruz
+    cin>> r;
+    area = 3.1425f * r * r; // Alanı hesaplıyoruz: Alan = pi * r * r
+    /// Buradaki 3.1425f ifadesindeki 'f', sayının 'float' türünde olduğunu belirtir.
+    /// 'float' türü, 'double' türüne göre daha düşük hassasiyete sahiptir ve daha az bellek kullanır.
+    /// Eğer 'f' eklemeseydik, 3.1425 sayısı varsayılan olarak 'double' türünde kabul edilirdi.
+    
+    cout << "area is: " << area;
+    */
     //* Üçgenin alanını bulan program
     /*
     ///Kullanıcıdan alınacak üçgenin taban (b) ve yüksekliği (h) , alan değişkenleri
