@@ -1,5 +1,7 @@
 #include <iostream>
-#include <cmath> // sqrt fonksiyonunu kullanabilmek için gerekli kütüphane
+#include <cmath> // C++'ta kullanılan başlık dosyası 
+//sqrt fonksiyonunu kullanabilmek için gerekli kütüphane
+// #include <math.h> // C dilinde kullanılan başlık dosyası
 using namespace std;
 
 int main()
