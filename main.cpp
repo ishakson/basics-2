@@ -28,7 +28,7 @@ int main()
     cout << "Ucgenin alani: " << a << endl;
     */
     //* n'e kadar olan sayıların toplamını bulan program
-    /*
+    /* 
     int n, sum; /// 'n' sayısı ve 'sum' toplamı için iki tam sayı değişkeni tanımlanır
     cout << "Bir sayi girin: " << endl;
     cin >> n;
