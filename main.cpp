@@ -1,7 +1,7 @@
 #include <iostream>
-#include <cmath> // C++'ta kullanılan başlık dosyası 
-//sqrt fonksiyonunu kullanabilmek için gerekli kütüphane
-// #include <math.h> // C dilinde kullanılan başlık dosyası
+#include <cmath> // C++'ta kullanılan başlık dosyası
+// sqrt fonksiyonunu kullanabilmek için gerekli kütüphane
+//  #include <math.h> // C dilinde kullanılan başlık dosyası
 using namespace std;
 
 int main()
@@ -57,6 +57,7 @@ int main()
     {
         /// Diskriminant pozitif ise: İki farklı gerçek kök vardır
         /// Köklerin hesaplanması için ikinci derece denklem çözüm formülü kullanılır
+        /// sqrt fonksiyonu, bir sayının karekökünü hesaplamak için kullanılır.
         r1 = (-b + sqrt(discriminant)) / (2 * a); // Birinci kök (+) ile
         r2 = (-b - sqrt(discriminant)) / (2 * a); // İkinci kök (-) ile
         cout << "İki gerçek kök:" << endl;
@@ -80,5 +81,24 @@ int main()
         cout << "r1: " << realPart << " + " << imaginaryPart << "i" << endl;
         cout << "r2: " << realPart << " - " << imaginaryPart << "i" << endl;
     }*/
+    /*
+    //* kinematik denklemlerine dayalı bir hız hesaplama programı
+    int initialVelocity;  // İlk hız (u) -> Cismin başlangıçtaki hızı
+    int finalVelocity;    // Son hız (v) -> Cismin belirli bir süreden sonraki hızı
+    int acceleration;     // İvme (a) -> Cismin hızının değişme oranı
+    float speed;          // Hesaplanacak hız değişkeni
+    cout << "Enter initial velocity (u), final velocity (v), and acceleration (a): ";
+    cin >> initialVelocity >> finalVelocity >> acceleration;
+
+    /// Bölme hatasını önlemek için ivme (a) değerinin 0 olup olmadığını kontrol ediyoruz
+    if (acceleration != 0) {
+        /// Hız hesaplama formülü: speed = (u^2 - v^2) / (2 * a)
+        speed = (initialVelocity * initialVelocity - finalVelocity * finalVelocity) / (2.0 * acceleration);
+        cout << "Calculated speed is: " << speed << endl;
+    } else {
+        /// Eğer ivme (a) sıfırsa, hata mesajı veriyoruz
+        cout << "Error: Acceleration (a) cannot be zero. Division by zero is not allowed!" << endl;
+    }
+    */
     return 0;
 }
